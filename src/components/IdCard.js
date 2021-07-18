@@ -14,7 +14,7 @@ function IdCard(props) {
             <li> Last name: {props.lastName}</li>
             <li> Gender: {props.gender}</li>
             <li> Height: {props.height} </li>
-            <li> Birst{dateFormat(props.birth, "dddd, mmmm , yyyy")} </li>
+            <li> Birth: {dateFormat(props.birth, "dddd, mmmm , yyyy")} </li>
         </ol>
             
         </div>
